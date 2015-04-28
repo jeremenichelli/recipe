@@ -21,7 +21,7 @@
     var banner = '/*' +
         '\n * ' + project.title + ' - v' + project.version +
         '\n * ' + project.url +
-        '\n * ' + project.copyright + '(c) ' + project.author + ' - ' + project.license + ' License' +
+        '\n * ' + project.copyright + ' (c) ' + project.author + ' - ' + project.license + ' License' +
         '\n*/\n\n';
 
     // tasks

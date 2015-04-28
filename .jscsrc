@@ -51,12 +51,10 @@
         "<",
         "<="
     ],
-    "requireSpaceAfterBinaryOperators": true,
+    "requireSpaceAfterBinaryOperators": false,
     "disallowSpaceBeforeBinaryOperators": true,
     "validateIndentation": 4,
     "validateQuoteMarks": "'",
-    "requireSpaceAfterBinaryOperators": true,
-    "requireSpaceAfterPrefixUnaryOperators": true,
     "requireSpacesInConditionalExpression": true,
     "disallowSpaceAfterPrefixUnaryOperators": ["++", "--", "+", "-", "~", "!"],
     "disallowSpaceBeforePostfixUnaryOperators": ["++", "--"],
@@ -82,7 +80,7 @@
     "disallowTrailingWhitespace": true,
     "disallowKeywordsOnNewLine": ["else"],
     "requireCapitalizedConstructors": true,
-    "safeContextKeyword": ["me"],
+    "safeContextKeyword": [ "v" ],
     "requireDotNotation": true,
     "disallowYodaConditions": true,
     "disallowTrailingComma": true
