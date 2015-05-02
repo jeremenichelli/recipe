@@ -1,7 +1,7 @@
 /*
  * PROJECT_NAME - v1.0.0
  * https://github.com/jeremenichelli/PROJECT_NAME
- * 2015(c) Jeremias Menichelli - MIT License
+ * 2015 (c) Jeremias Menichelli - MIT License
 */
 
 (function(root, factory) {
