@@ -5,6 +5,5 @@ node_modules
 .jshintrc
 src
 test
-sample.html
 gulpfile.js
 bower.json
