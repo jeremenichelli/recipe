@@ -1,15 +1,29 @@
 # recipe [![Build Status](https://travis-ci.org/jeremenichelli/recipe.svg)](https://travis-ci.org/jeremenichelli/recipe)
-Starter Kit for script repositories using Gulp work flow to check syntax, run tests and minify code.
+Boilerplate for JavaScript repositories with Gulp tasks ready to use to check syntax, minify and create distribution versions.
 
-Feel free to dig into it, propose changes or fork and use it. Take in account that this covers the most primitive needs for a normal JavaScript project so there's a chance you might need to add new stuff to adapt your needs.
+Feel free to dig into it, propose changes or fork and use it. Take in account that this covers the most primitive needs for a normal JavaScript project so there's a chance you might need to add new stuff to adapt it to your needs.
 
-*Remember to do ```npm install``` on your folder to get all the packages required to run tasks.*
+## Use
 
+Copy the content of this repository into your project folder.
 
-### Check syntax
+Install **Gulp** on your machine in case you haven't used it before.
 
 ```
-gulp hint
+npm install gulp -g
+```
+
+Install dependencies
+
+```
+npm install
+```
+
+
+### Check code styles and possible errors
+
+```
+gulp lint
 ```
 
 ### Run tests
@@ -18,8 +32,8 @@ gulp hint
 gulp test
 ```
 
-### Run all tasks and build to generate minified code
+### Build and generate distribution files
 
 ```
-gulp
+gulp build
 ```
