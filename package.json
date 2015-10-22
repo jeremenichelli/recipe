@@ -1,14 +1,13 @@
 {
   "title": "PROJECT_NAME",
-  "name": "project_name",
+  "name": "PROJECT_NAME",
   "description": "Template JavaScript repository with Gulp work flow",
   "url": "https://github.com/jeremenichelli/PROJECT_NAME",
   "author": "Jeremias Menichelli",
   "copyright": "2015",
   "version": "1.0.0",
   "license": "MIT",
-  "main": "./dist/project_name.js",
-  "url": "https://github.com/jeremenichelli/PROJECT_NAME",
+  "main": "./dist/PROJECT_NAME.js",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/jeremenichelli/PROJECT_NAME.git"
@@ -19,13 +18,12 @@
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-concat-util": "^0.5.2",
-    "gulp-jscs": "^1.6.0",
-    "gulp-jshint": "^1.10.0",
+    "gulp-eslint": "^1.0.0",
     "gulp-karma": "0.0.4",
+    "gulp-load-plugins": "^1.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.2.0",
     "jasmine-core": "^2.2.0",
-    "jshint-stylish": "^1.0.1",
     "karma": "^0.12.31",
     "karma-jasmine": "^0.3.5",
     "karma-phantomjs-launcher": "^0.1.4",

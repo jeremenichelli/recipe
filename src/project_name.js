@@ -8,6 +8,7 @@
         root.PROJECT_NAME = factory(root);
     }
 })(this, function() {
+    'use strict';
     // do something here
 
     return {};
