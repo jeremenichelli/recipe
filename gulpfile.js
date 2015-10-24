@@ -7,9 +7,11 @@
      * $: namespace for gulp plugins
      */
     var gulp = require('gulp'),
+        $ = require('gulp-load-plugins')(),
+        // project information
         project = require('./package.json'),
-        Server = require('karma').Server,
-        $ = require('gulp-load-plugins')();
+        // karma test server
+        karmaServer = require('karma').Server;
 
     /*
      * gulp plugins available
@@ -76,7 +78,7 @@
      * gulp test
      */
     gulp.task('test', [ 'lint' ], function(done) {
-        return new Server({
+        return new karmaServer({
             configFile: __dirname + '/test/karma.conf.js',
             singleRun: true
         }, done).start();
