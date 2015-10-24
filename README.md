@@ -1,4 +1,7 @@
-# recipe [![Build Status](https://travis-ci.org/jeremenichelli/recipe.svg)](https://travis-ci.org/jeremenichelli/recipe)
+# recipe
+
+[![Build Status](https://travis-ci.org/jeremenichelli/recipe.svg)](https://travis-ci.org/jeremenichelli/recipe)
+
 Boilerplate for JavaScript repositories with Gulp tasks ready to use to check syntax, minify and create distribution versions.
 
 Feel free to dig into it, propose changes or fork and use it. Take in account that this covers the most primitive needs for a normal JavaScript project so there's a chance you might need to add new stuff to adapt it to your needs.
