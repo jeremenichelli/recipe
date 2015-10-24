@@ -8,6 +8,7 @@
      */
     var gulp = require('gulp'),
         project = require('./package.json'),
+        Server = require('karma').Server,
         $ = require('gulp-load-plugins')();
 
     /*
@@ -74,9 +75,11 @@
      *
      * gulp test
      */
-    gulp.task('test', [ 'lint' ], function() {
-        return gulp.src([ paths.spec, paths.src ])
-            .pipe($.karma({configFile: 'test/karma.conf.js'}));
+    gulp.task('test', [ 'lint' ], function(done) {
+        return new Server({
+            configFile: __dirname + '/test/karma.conf.js',
+            singleRun: true
+        }, done).start();
     });
 
     /*

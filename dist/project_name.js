@@ -1,6 +1,6 @@
 /*
  * PROJECT_NAME - v1.0.0
- * https://github.com/jeremenichelli/PROJECT_NAME
+ * https://github.com/jeremenichelli/project_name
  * 2015 (c) Jeremias Menichelli - MIT License
 */
 
