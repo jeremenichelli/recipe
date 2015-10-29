@@ -12,7 +12,7 @@
     "define": true,
     "undefined": true,
     // project global name
-    "mnster": true,
+    "PROJECT_NAME": true,
     // jasmine reserved names
     "describe": true,
     "beforeEach": true,
