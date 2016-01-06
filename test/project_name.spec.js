@@ -1,9 +1,12 @@
-(function(root) {
-    'use strict';
+import { init, num } from '../src/project_name.js'
 
-    describe('Primary access', function() {
-        it('PROJECT_NAME available in global scope', function() {
-            expect(typeof root.PROJECT_NAME).toBe('object');
-        });
-    });
-})(this);
+describe('Testing es6 module', () => {
+	it('init should return test string', () => {
+		let str = init();
+
+		expect(str).toEqual('test');
+	});
+	it('num should be a number', () => {
+		expect(num).toEqual(123);
+	});
+});

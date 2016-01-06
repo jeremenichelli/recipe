@@ -2,7 +2,7 @@
 node_modules
 
 // npm
-npm_debug.log
+npm-debug.log
 
 // OS X
 .DS_Store
